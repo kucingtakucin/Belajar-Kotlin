@@ -13,7 +13,10 @@ class MutableStack<E>(vararg items: E){
 
 }
 fun <E> mutableStackOf(vararg elements: E) = MutableStack(*elements)
-
+/**
+ * @author (Adam Arthur Faizal)
+ *
+ * */
 fun main() {
     val stack = MutableStack("Adam", 17, true)
     val stack2 = mutableStackOf(1,2,3,4,true, false)
