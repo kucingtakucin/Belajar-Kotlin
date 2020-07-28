@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2020. Adam Arthur Faizal
+ */
+
 package kotlin02ControlFlow
 
 fun main() {
@@ -30,6 +34,7 @@ fun whenAssign(obj: Any): Any {
         is Long -> false
         else -> 10000
     }
+
     return result
 }
 

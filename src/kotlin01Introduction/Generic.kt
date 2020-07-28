@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2020. Adam Arthur Faizal
+ */
+
 package kotlin01Introduction
 
 class MutableStack<E>(vararg items: E){
