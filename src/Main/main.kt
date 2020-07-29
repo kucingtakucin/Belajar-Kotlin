@@ -10,19 +10,10 @@
 package Main
 
 fun main() {
-    val orangJepang = arrayListOf("Naruto", "Sasuke", "Sakura")
-    val orangAmerika = arrayListOf("Superman", "Batman", "Spiderman")
-    val orangIndonesia = arrayListOf("Mbah Putih", "Mbah Hitam")
+    val persons: Map<String, String> = mapOf("Nama" to "Adam", "Panggilan" to "Arthur")
+    persons.forEach { (key, value) -> println("$key $value") }
+    System.out.println("Hello, World!")
+    println("Hello, World!")
 
-    println("Masukkan nama : ")
-    val input = readLine()
-
-    if (input in orangJepang || input in orangAmerika) {
-        println("Bule is true")
-        for (orang in orangJepang) if (input === orang) println("Dia orang jepang")
-        for (orang in orangAmerika) if (input === orang) println("Dia orang amerika")
-    } else {
-        println("Bule is false, dia adalah orang indonesia")
-    }
 }
 

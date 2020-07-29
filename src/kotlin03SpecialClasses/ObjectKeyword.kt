@@ -2,7 +2,7 @@
  * Copyright (c) 2020. Adam Arthur Faizal
  */
 
-package kotlin02SpecialClasses
+package kotlin03SpecialClasses
 
 import java.util.Random
 

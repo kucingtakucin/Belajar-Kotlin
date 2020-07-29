@@ -2,7 +2,7 @@
  * Copyright (c) 2020. Adam Arthur Faizal
  */
 
-package kotlin02SpecialClasses
+package kotlin03SpecialClasses
 
 data class User(val name: String, val id: Int)
 
