@@ -10,10 +10,11 @@
 package Main
 
 fun main() {
-    val persons: Map<String, String> = mapOf("Nama" to "Adam", "Panggilan" to "Arthur")
-    persons.forEach { (key, value) -> println("$key $value") }
-    System.out.println("Hello, World!")
-    println("Hello, World!")
-
+    val person = Student("Adam", "Arthur", 17, "Adam Arthur Faizal")
+    person.greeting()
+    println("Halo, namaku ${person.nama}, biasa dipanggil ${person.panggil}, umurku ${person.umur} tahun")
+    println(person.identitas)
+    println(person.kuadrat(19))
+    assert(true)
+    assert(true) { "Hello, World" }
 }
-
